@@ -59,7 +59,16 @@
   border-top: 3px solid #fdfefd;
   border-bottom: 3px solid black /* #929292*/;
   border-right: 3px solid black /*#929292*/;
+  background-color: #cbcbcb;
 }
 .HiddenBox:hover {
   background-color: #b6b6b6;
+  opacity: 0.3;
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+.HiddenBox:hover > .invisible {
+  visibility: visible;
 }
